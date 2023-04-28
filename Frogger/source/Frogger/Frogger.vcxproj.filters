@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinates2D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimensions.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates2D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimensions.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\bug_goal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\cars.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\death.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\frog.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\froggerTitle.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\gameOverScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\goal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\ladybug.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\life.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\log1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\log2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\log3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\RetryButton.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\truck.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\turtle.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\background.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{8e00fb57-37ab-4b22-b366-54407f36d5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{d9139807-b385-4e30-805d-b95b1cb56a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{6f83b41e-8c0f-4666-a925-fd2cc3676d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{8ba89091-e84b-4efc-b3a7-3075e845a69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{80f1c1cc-cfa1-463f-9533-82b004f6de29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\music.mp3">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="assets\hop_sfx.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
