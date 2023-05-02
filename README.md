@@ -5,6 +5,9 @@ Used Command Pattern for hadling player input.
 
 Used Simple DirectMedia Layer 2
 
+![Screenshot 2023-05-01 020547](https://user-images.githubusercontent.com/43223838/235761548-48264953-8719-42d2-b20f-1f520dd1012f.png)
+
+
 **Vcpkg Install**
 ```
 vcpkg install sdl2
