@@ -1,7 +1,7 @@
 # Frogger
-Developed a basic clone of Frogger using object oriented and data driven design with JSON data deserialization. Developed as a graudate student at Florida Interactive Entertainment Academy.
+Developed a basic clone of Frogger using object oriented and data driven design with JSON data deserialization. Developed as a graduate student at Florida Interactive Entertainment Academy.
 
-Used Command Pattern for hadling player input.
+Used Command Pattern for handling player input.
 
 Used Simple DirectMedia Layer 2
 
